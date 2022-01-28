@@ -1,0 +1,18 @@
+<p>canvas works!</p>
+<div class="grid" >
+    <canvas   #canvas width="600" height="300" style="border:1px solid #000000;position:relative"
+(click)=onEvent($event)
+(dblclick)=selected($event)
+(mousedown)=dragging($event)
+(mouseup)=dropping($event)
+(on-escape)=dropping($event)
+>
+</canvas>
+</div>
+
+
+<button (click)="ready()">Reay to start</button>
+<button (click)="addSquare()">Add a shelf</button> 
+
+
+

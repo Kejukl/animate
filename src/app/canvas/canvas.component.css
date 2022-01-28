@@ -1,0 +1,13 @@
+.grid {
+    width: 100px;
+    height: 100px;
+    background-size: 10px;
+    }
+.box {
+  height: 40px;  
+  width: 40px;
+  border: 15px solid green;
+}
+
+
+
